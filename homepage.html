@@ -34,6 +34,7 @@
           background-image: url(projectimages/ECJ7KWKEVA.jpg);
         }
       </style>
+      <!---ChatGPT paragraph--->
       <p>
         Welcome to Jim's Clothes Closet by JACK VICTOR, where style meets
         sophistication. Explore our meticulously curated collection of
@@ -54,35 +55,91 @@
       </p>
     </section>
     <section class="shopping">
-      <form>
-        <label for="search">Search:</label>
-        <input
-          type="text"
-          id="search"
-          name="search"
-          placeholder="Search products"
-        />
-        <label for="category">Category:</label>
-        <select id="category" name="category">
-          <option value="all">All Categories</option>
-          <option value="men">Men</option>
-          <option value="women">Women</option>
-        </select>
-        <label for="size">Size</label>
-        <select id="size" name="size">
-          <option value="all">All sizes</option>
-          <option value="small">Small</option>
-          <option value="medium">Medium</option>
-          <option value="large">Large</option>
-        </select>
-        <label for="style">Style:</label>
-        <select id="style" name="style">
-          <option value="all">All Styles</option>
-          <option value="casual">Casual</option>
-          <option value="formal">Formal</option>
-        </select>
-        <button type="button" onclick="applyFilters()">Apply Filters</button>
-      </form>
+      <div class="form-inputs">
+        <form>
+          <label for="search">Search:</label>
+          <input
+            type="text"
+            id="search"
+            name="search"
+            placeholder="Search products"
+          />
+          <label for="category">Category:</label>
+          <select id="category" name="category">
+            <option value="all">All Categories</option>
+            <option value="men">Men</option>
+            <option value="women">Women</option>
+          </select>
+          <label for="size">Size</label>
+          <select id="size" name="size">
+            <option value="all">All sizes</option>
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+          <label for="style">Style:</label>
+          <select id="style" name="style">
+            <option value="all">All Styles</option>
+            <option value="casual">Casual</option>
+            <option value="formal">Formal</option>
+          </select>
+          <button type="button" onclick="applyFilters()">Apply Filters</button>
+        </form>
+      </div>
+      <div class="products">
+        <div class="product1">
+          <img
+            src="projectimages/istockphoto-177381856-2048x2048.jpg"
+            width="300"
+            alt="Stylish Suit"
+          />
+          <h3>Stylish Suit</h3>
+          <p>
+            Classic suit for any occasion. Elevate your style with this timeless
+            piece.
+          </p>
+          <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="product2">
+          <img
+            src="projectimages/jeans-1234687_1280.jpg"
+            width="250"
+            alt="jeans and T-shirt"
+          />
+          <h3>Jeans and T-shirt</h3>
+          <p>
+            Comfortable and trendy. Perfect for a laid-back day or casual
+            outings.
+          </p>
+          <button class="buy-now-button">Buy Now</button>
+        </div>
+        <div class="product3">
+          <h3>Hoodies</h3>
+          <img
+            src="projectimages/istockphoto-1319570643-2048x2048.jpg"
+            width="300"
+            alt="Hoodies"
+          />
+          <p>
+            Stay warm and cozy with our stylish hoodie. Ideal for chilly days
+            and casual comfort.
+          </p>
+        </div>
+        <div class="product4">
+          <h3>Leather shoes</h3>
+          <img
+            src="projectimages/footwear-1838767_1280.jpg"
+            width="300"
+            alt="Leather shoes"
+          />
+          <p>
+            Step out in style with our latest collection of trendy shoes.
+            Comfort meets fashion.
+          </p>
+        </div>
+      </div>
+      <a href="">View more details</a>
+      <!---link from personal shopping page--->
     </section>
   </main>
 </body>
