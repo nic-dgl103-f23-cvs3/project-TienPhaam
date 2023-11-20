@@ -32,32 +32,21 @@
     </header>
     <main>
       <section class="introduction">
-        <h1>Discover Your Style</h1>
-        <style>
-          .introduction {
-            background-image: url(projectimages/vest.jpg);
-            background-repeat: no-repeat;
-          }
-        </style>
-        <!---ChatGPT paragraph--->
-        <p>
-          Welcome to Jim's Clothes Closet by JACK VICTOR, where style meets
-          sophistication. Explore our meticulously curated collection of
-          high-quality menswear, thoughtfully designed to elevate your wardrobe
-          to new heights.
-        </p>
-        <p>
-          From impeccably tailored suits to casual essentials, we offer a
-          diverse range of clothing that blends modern trends with timeless
-          elegance. Our commitment to quality craftsmanship ensures that each
-          piece reflects the pinnacle of sartorial excellence.
-        </p>
-        <p>
-          Discover the perfect ensemble for every occasion, whether it's a
-          formal event, a day at the office, or a casual weekend outing. At
-          Jim's Clothes Closet, we redefine your style journey with garments
-          that inspire confidence and make a lasting impression.
-        </p>
+        <div class="introduction1">
+          <h1>Discover Your Style</h1>
+
+          <!---ChatGPT paragraph--->
+          <p>
+            Welcome to Jim's Clothes Closet by JACK VICTOR,<br />
+            where style meets sophistication. Explore<br />
+            our meticulously curated collection of high-quality<br />
+            menswear, thoughtfully designed to elevate your<br />
+            wardrobe to new heights.
+          </p>
+        </div>
+        <div class="pic">
+          <img src="projectimages/vest.jpg" width="350" alt="" />
+        </div>
       </section>
       <section class="shopping">
         <div class="form-inputs">
@@ -75,6 +64,8 @@
               <option value="men">Men</option>
               <option value="women">Women</option>
             </select>
+          </form>
+          <form>
             <label for="size">Size</label>
             <select id="size" name="size">
               <option value="all">All sizes</option>
