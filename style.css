@@ -1,3 +1,18 @@
+
 .logo{
     background-color: #202A44
+    
+}
+.nav-bar li{
+list-style: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-family: Ubuntu;
+}
+main .introduction{
+    background-image: url(projectimages/vest.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
