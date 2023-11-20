@@ -12,201 +12,259 @@
       rel="stylesheet"
     />
   </head>
-</html>
-<body>
-  <header>
-    <img src="projectimages/logo_tagline.jpg" width="200" alt="logo" />
-    <nav>
-      <ul>
-        <li><a href="/homepage.html">Home</a></li>
-        <li><a href="/">Brands</a></li>
-        <li><a href="/">Big & Tall</a></li>
-        <li><a href="/">Custome Suits</a></li>
-        <li><a href="/">Personal Shopping</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="introduction">
-      <h1>Discover Your Style</h1>
-      <style>
-        .introduction {
-          background-image: url(projectimages/ECJ7KWKEVA.jpg);
-        }
-      </style>
-      <!---ChatGPT paragraph--->
-      <p>
-        Welcome to Jim's Clothes Closet by JACK VICTOR, where style meets
-        sophistication. Explore our meticulously curated collection of
-        high-quality menswear, thoughtfully designed to elevate your wardrobe to
-        new heights.
-      </p>
-      <p>
-        From impeccably tailored suits to casual essentials, we offer a diverse
-        range of clothing that blends modern trends with timeless elegance. Our
-        commitment to quality craftsmanship ensures that each piece reflects the
-        pinnacle of sartorial excellence.
-      </p>
-      <p>
-        Discover the perfect ensemble for every occasion, whether it's a formal
-        event, a day at the office, or a casual weekend outing. At Jim's Clothes
-        Closet, we redefine your style journey with garments that inspire
-        confidence and make a lasting impression.
-      </p>
-    </section>
-    <section class="shopping">
-      <div class="form-inputs">
-        <form>
-          <label for="search">Search:</label>
-          <input
-            type="text"
-            id="search"
-            name="search"
-            placeholder="Search products"
-          />
-          <label for="category">Category:</label>
-          <select id="category" name="category">
-            <option value="all">All Categories</option>
-            <option value="men">Men</option>
-            <option value="women">Women</option>
-          </select>
-          <label for="size">Size</label>
-          <select id="size" name="size">
-            <option value="all">All sizes</option>
-            <option value="small">Small</option>
-            <option value="medium">Medium</option>
-            <option value="large">Large</option>
-          </select>
-          <label for="style">Style:</label>
-          <select id="style" name="style">
-            <option value="all">All Styles</option>
-            <option value="casual">Casual</option>
-            <option value="formal">Formal</option>
-          </select>
-          <button type="button" onclick="applyFilters()">Apply Filters</button>
-        </form>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="projectimages/logo_tagline.jpg" width="200" alt="logo" />
       </div>
-      <div class="products">
-        <div class="product1">
-          <img
-            src="projectimages/istockphoto-177381856-2048x2048.jpg"
-            width="300"
-            alt="Stylish Suit"
-          />
-          <h3>Stylish Suit</h3>
-          <p>
-            Classic suit for any occasion. Elevate your style with this timeless
-            piece.
-          </p>
-          <button class="buy-now-button">Buy Now</button>
-        </div>
-        <div class="product2">
-          <img
-            src="projectimages/jeans-1234687_1280.jpg"
-            width="250"
-            alt="jeans and T-shirt"
-          />
-          <h3>Jeans and T-shirt</h3>
-          <p>
-            Comfortable and trendy. Perfect for a laid-back day or casual
-            outings.
-          </p>
-          <button class="buy-now-button">Buy Now</button>
-        </div>
-        <div class="product3">
-          <h3>Hoodies</h3>
-          <img
-            src="projectimages/istockphoto-1319570643-2048x2048.jpg"
-            width="300"
-            alt="Hoodies"
-          />
-          <p>
-            Stay warm and cozy with our stylish hoodie. Ideal for chilly days
-            and casual comfort.
-          </p>
-          <button class="buy-now-button">Buy now</button>
-        </div>
-        <div class="product4">
-          <h3>Leather shoes</h3>
-          <img
-            src="projectimages/footwear-1838767_1280.jpg"
-            width="300"
-            alt="Leather shoes"
-          />
-          <p>
-            Step out in style with our latest collection of trendy shoes.
-            Comfort meets fashion.
-          </p>
-          <button class="buy-now-button">Buy now</button>
-        </div>
+      <div class="hamburger-icon">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
       </div>
-      <a href="">View more details</a>
-      <!---link from personal shopping page will be added later--->
-    </section>
-    <section id="personal-shopping">
-      <!--Link for Users to Schedule Personal Shopping Appointments -->
-      <div class="appointment-link">
-        <a href="personal-shopping.html"
-          >Schedule a Personal Shopping Appointment</a
-        >
-      </div>
-      <ul class="best-reasons">
-        <h4>For the best customer's experience</h4>
-        <li>We offer a curated selection of the latest fashion trends.</li>
-        <li>Personalized styling advice from experienced fashion experts.</li>
-        <li>
-          Exceptional customer service and a hassle-free shopping experience.
-        </li>
-      </ul>
-      <img
-        src="projectimages/business-1427801_1280.jpg"
-        width="400"
-        alt="Personal Shopping Image"
-      />
-    </section>
-    <section id="custom-suit">
-      <div class="custom-suit-link">
-        <a href="custom-suit.html">Create Your Custom Suit</a>
-        <!--Link from Custom suit page will be added later-->
-      </div>
-      <!-- Image -->
-      <img
-        src="projectimages/istockphoto-890289344-2048x2048.jpg"
-        width="400"
-        alt="Custom Suit"
-      />
-      <div class="shopnowlink"></div>
-      <a href="">Shop now</a>
-    </section>
-    <section class="call-to-action">
-      <div>
-        <p>All Locations Now Open</p>
-        <p>Monday – Saturday 9:30 am – 5:30 pm</p>
+      <nav class="mobile-nav">
+        <ul class="nav-links">
+          <li><a href="/homepage.html">Home</a></li>
+          <li><a href="/">Brands</a></li>
+          <li><a href="/">Big & Tall</a></li>
+          <li><a href="/">Custome Suits</a></li>
+          <li><a href="/">Personal Shopping</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="introduction">
+        <h1>Discover Your Style</h1>
+        <style>
+          .introduction {
+            background-image: url(projectimages/ECJ7KWKEVA.jpg);
+          }
+        </style>
+        <!---ChatGPT paragraph--->
         <p>
-          Early Shopping Appointments<br />available before we open to the
-          public. Contact us for<br />
-          more details.
+          Welcome to Jim's Clothes Closet by JACK VICTOR, where style meets
+          sophistication. Explore our meticulously curated collection of
+          high-quality menswear, thoughtfully designed to elevate your wardrobe
+          to new heights.
         </p>
+        <p>
+          From impeccably tailored suits to casual essentials, we offer a
+          diverse range of clothing that blends modern trends with timeless
+          elegance. Our commitment to quality craftsmanship ensures that each
+          piece reflects the pinnacle of sartorial excellence.
+        </p>
+        <p>
+          Discover the perfect ensemble for every occasion, whether it's a
+          formal event, a day at the office, or a casual weekend outing. At
+          Jim's Clothes Closet, we redefine your style journey with garments
+          that inspire confidence and make a lasting impression.
+        </p>
+      </section>
+      <section class="shopping">
+        <div class="form-inputs">
+          <form>
+            <label for="search">Search:</label>
+            <input
+              type="text"
+              id="search"
+              name="search"
+              placeholder="Search products"
+            />
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+              <option value="all">All Categories</option>
+              <option value="men">Men</option>
+              <option value="women">Women</option>
+            </select>
+            <label for="size">Size</label>
+            <select id="size" name="size">
+              <option value="all">All sizes</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+            </select>
+            <label for="style">Style:</label>
+            <select id="style" name="style">
+              <option value="all">All Styles</option>
+              <option value="casual">Casual</option>
+              <option value="formal">Formal</option>
+            </select>
+            <button type="button" onclick="applyFilters()">
+              Apply Filters
+            </button>
+          </form>
+        </div>
+        <div class="products">
+          <div class="product1">
+            <img
+              src="projectimages/istockphoto-177381856-2048x2048.jpg"
+              width="300"
+              alt="Stylish Suit"
+            />
+            <h3>Stylish Suit</h3>
+            <p>
+              Classic suit for any occasion. Elevate your style with this
+              timeless piece.
+            </p>
+            <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="product2">
+            <img
+              src="projectimages/jeans-1234687_1280.jpg"
+              width="250"
+              alt="jeans and T-shirt"
+            />
+            <h3>Jeans and T-shirt</h3>
+            <p>
+              Comfortable and trendy. Perfect for a laid-back day or casual
+              outings.
+            </p>
+            <button class="buy-now-button">Buy Now</button>
+          </div>
+          <div class="product3">
+            <h3>Hoodies</h3>
+            <img
+              src="projectimages/istockphoto-1319570643-2048x2048.jpg"
+              width="300"
+              alt="Hoodies"
+            />
+            <p>
+              Stay warm and cozy with our stylish hoodie. Ideal for chilly days
+              and casual comfort.
+            </p>
+            <button class="buy-now-button">Buy now</button>
+          </div>
+          <div class="product4">
+            <h3>Leather shoes</h3>
+            <img
+              src="projectimages/footwear-1838767_1280.jpg"
+              width="300"
+              alt="Leather shoes"
+            />
+            <p>
+              Step out in style with our latest collection of trendy shoes.
+              Comfort meets fashion.
+            </p>
+            <button class="buy-now-button">Buy now</button>
+          </div>
+        </div>
+        <a href="">View more details</a>
+        <!---link from personal shopping page will be added later--->
+      </section>
+      <section id="personal-shopping">
+        <!--Link for Users to Schedule Personal Shopping Appointments -->
+        <div class="appointment-link">
+          <a href="personal-shopping.html"
+            >Schedule a Personal Shopping Appointment</a
+          >
+        </div>
+        <ul class="best-reasons">
+          <h4>For the best customer's experience</h4>
+          <li>We offer a curated selection of the latest fashion trends.</li>
+          <li>Personalized styling advice from experienced fashion experts.</li>
+          <li>
+            Exceptional customer service and a hassle-free shopping experience.
+          </li>
+        </ul>
+        <img
+          src="projectimages/business-1427801_1280.jpg"
+          width="400"
+          alt="Personal Shopping Image"
+        />
+      </section>
+      <section id="custom-suit">
+        <div class="custom-suit-link">
+          <a href="custom-suit.html">Create Your Custom Suit</a>
+          <!--Link from Custom suit page will be added later-->
+        </div>
+        <!-- Image -->
+        <img
+          src="projectimages/istockphoto-890289344-2048x2048.jpg"
+          width="400"
+          alt="Custom Suit"
+        />
+        <div class="shopnowlink"></div>
+        <a href="">Shop now</a>
+      </section>
+      <section class="call-to-action">
+        <div>
+          <p>All Locations Now Open</p>
+          <p>Monday – Saturday 9:30 am – 5:30 pm</p>
+          <p>
+            Early Shopping Appointments<br />available before we open to the
+            public. Contact us for<br />
+            more details.
+          </p>
+        </div>
+        <div>
+          <h2>FOLLOW US ON INSTAGRAM</h2>
+          <a href="" target="_blank" rel="FOLLOW">@TienPhatPham</a>
+        </div>
+        <img
+          src="projectimages/402398993_366927862419266_5216588652396597024_n.jpg"
+          width="400"
+          alt=""
+        />
+        <!--From the original web-->
+        <h4>WE KNOW HOW MEN LIKE TO SHOP</h4>
+        <p>
+          We strive to provide high quality products in a relaxed atmosphere and
+          with help from knowledgeable staff, we make shopping EASY again.
+        </p>
+        <p>
+          Jim’s Clothes Closet was established in Port Alberni 50 years ago and
+          has since grown to 5 locations within the province of British Columbia
+          as well as an online store.
+        </p>
+        <img
+          src="projectimages/Jims-50yrs-Final-768x721.jpg"
+          width="500"
+          alt=""
+        />
+      </section>
+    </main>
+    <footer>
+      <div class="contact-details">
+        <h3>Contact Us</h3>
+        <p>Email: info@jimsclothescloset.ca</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Address: 123 Fashion Street, Cityville, State, ZIP</p>
       </div>
-      <div>
-        <h2>FOLLOW US ON INSTAGRAM</h2>
-        <a href="" target="_blank" rel="FOLLOW">@TienPhatPham</a>
+
+      <div class="social-media">
+        <h3>Connect With Us</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/jimsclothescloset"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.twitter.com/jimscloset"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/jimscloset"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+        </ul>
       </div>
-      <img
-        src="projectimages/402398993_366927862419266_5216588652396597024_n.jpg"
-        width="400"
-        alt=""
-      />
-      <h4>WE KNOW HOW MEN LIKE TO SHOP</h4>
-      <p>
-        We strive to provide high quality products in a relaxed atmosphere and
-        with help from knowledgeable staff, we make shopping EASY again.
-      </p>
-      <p>
-        Jim’s Clothes Closet was established in Port Alberni 50 years ago and
-        has since grown to 5 locations within the province of British Columbia
-        as well as an online store.
-      </p>
-    </section>
-  </main>
-</body>
+
+      <div class="copyright">
+        <p>&copy; 2023 Jim's Clothes Closet. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
