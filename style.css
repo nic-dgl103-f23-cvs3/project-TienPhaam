@@ -13,7 +13,7 @@ list-style: none;
     font-family: Ubuntu;
 }
 main .introduction1{
-   background-color: #202A44;
+   background-color:#9C9595
 }
 .introduction  p{
     font-size: 16px;
@@ -33,8 +33,9 @@ main .introduction1{
 label .search{
     color: red;
 }
-.shopping{
-    margin-top: 40px;
+.shopping form{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#F6EEEE;
 }
 form{
     margin-bottom: 40px;
@@ -115,5 +116,31 @@ font-size: 20px;
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .best-reasons li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pic1{
+    text-align: center;
+}
+.custom-suit{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+.custom-suit-link a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #505D68;
+    color: #F6EEEE;
+    border-radius: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 15px;
+}
+.shopnowlink a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F6EEEE;
+    background-color: red;
+    padding: 5px 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
