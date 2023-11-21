@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="main" href="main.js" />
     <link
       href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
@@ -15,37 +16,48 @@
 
   <body>
     <header>
-      <div class="logo">
-        <img src="projectimages/logo_tagline.png" width="400" alt="logo" />
-      </div>
-      <div class="nav-bar">
-        <nav>
-          <ul>
-            <li><a href="/homepage.html">Home</a></li>
-            <li><a href="/">Brands</a></li>
-            <li><a href="/">Big & Tall</a></li>
-            <li><a href="/">Custome Suits</a></li>
-            <li><a href="/">Personal Shopping</a></li>
-          </ul>
-        </nav>
-      </div>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <input type="checkbox" id="navbar__check" />
+        <div class="navbar__logo">
+          <a href="/index.html"><img src="images/Logo.png" alt="Logo" /></a>
+        </div>
+        <ul class="navbar__list">
+          <label class="navbar__button--cancel" for="navbar__check"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="motion.html">Motion</a></li>
+          <li><a href="animation.html">Animation</a></li>
+        </ul>
+        <label class="navbar__button--bars" for="navbar__check"
+          ><i class="fas fa-bars"></i
+        ></label>
+      </nav>
+
+      <!-- 
+  Reference: 
+  Video Tutorial: Responsive Navigation Menu Bar using HTML CSS | Neumorphism UI
+  URL: https://www.youtube.com/watch?v=ps575maf37Y 
+-->
     </header>
     <main>
       <section class="introduction">
-        <div class="introduction1">
-          <h1>Discover Your Style</h1>
+        <div class="introductions">
+          <div class="introduction1">
+            <h1>Discover Your Style</h1>
 
-          <!---ChatGPT paragraph--->
-          <p>
-            Welcome to Jim's Clothes Closet by JACK VICTOR,<br />
-            where style meets sophistication. Explore<br />
-            our meticulously curated collection of high-quality<br />
-            menswear, thoughtfully designed to elevate your<br />
-            wardrobe to new heights.
-          </p>
-        </div>
-        <div class="pic">
-          <img src="projectimages/vest.jpg" width="350" alt="" />
+            <!---ChatGPT paragraph--->
+            <p>
+              Welcome to Jim's Clothes Closet by JACK VICTOR,<br />
+              where style meets sophistication. Explore<br />
+              our meticulously curated collection of high-quality<br />
+              menswear, thoughtfully designed to elevate your<br />
+              wardrobe to new heights.
+            </p>
+          </div>
+          <div class="pic">
+            <img src="projectimages/vest.jpg" width="350" alt="" />
+          </div>
         </div>
       </section>
       <section class="shopping">
