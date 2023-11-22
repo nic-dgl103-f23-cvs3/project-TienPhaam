@@ -62,7 +62,7 @@
 
       <section class="shopping">
         <div class="form-inputs">
-          <form>
+          <form class="search-bar">
             <label for="search">Search:</label>
             <input
               type="text"
@@ -70,27 +70,6 @@
               name="search"
               placeholder="Search products"
             />
-            <label for="category">Category:</label>
-            <select id="category" name="category">
-              <option value="all">All Categories</option>
-              <option value="men">Men</option>
-              <option value="women">Women</option>
-            </select>
-          </form>
-          <form>
-            <label for="size">Size</label>
-            <select id="size" name="size">
-              <option value="all">All sizes</option>
-              <option value="small">Small</option>
-              <option value="medium">Medium</option>
-              <option value="large">Large</option>
-            </select>
-            <label for="style">Style:</label>
-            <select id="style" name="style">
-              <option value="all">All Styles</option>
-              <option value="casual">Casual</option>
-              <option value="formal">Formal</option>
-            </select>
             <button type="button" onclick="applyFilters()">
               Apply Filters
             </button>
