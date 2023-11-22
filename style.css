@@ -32,7 +32,7 @@
   width: 100%;
   height: 100vh;
   padding-top: 2.8rem;
-  background-color: #f5f5f5;
+  background-color: #010101;
   transition: all 0.3s ease;
   list-style-type: none;
 }
@@ -49,7 +49,7 @@
   width: 100%;
   margin-top: 1.9rem;
   text-align: center;
-  color: #2E4053;
+  color: #D8D8D8;
 }
 .navbar__button--cancel, .navbar__button--bars {
   color: #666666;
@@ -107,6 +107,11 @@
 .product1{
     margin-top: 20px;
 }
+
+
+.products{
+  color: #D8D8D8;
+}
 .product1 button{
     border-radius: 4px;
     padding: 5px 10px;
@@ -154,12 +159,27 @@
 .personal-shopping{
   text-align: center;
   background-color:  rgb(49, 38, 38);
-  border-bottom: 2px solid #2E4053;
+  
   color: #D8D8D8;
 }
-.custom-suit-link a{
+.custom-suit{
+  
+  text-align: center;
+  background-color: rgb(49, 38, 38);
+}
+.custom-suit a{
   text-decoration: none;
-  border: 1px solid #2E4053 ;
+}
+.custom-suit-link{
+  padding-top: 20px;
+}
+.custom-suit-link a{
+  color: #D8D8D8;
+  border: 1px solid #2E4053;
+  border-radius: 5px;
+  padding: 10px 20px 10px;
+  display: inline-block;
+  background-color: #2E4053;
 }
 /* ----------------------------------------------------------------------------1.Tablet view ------------------------------------------------------------------------*/
 @media screen and (min-width: 600px) {
