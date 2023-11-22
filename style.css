@@ -86,7 +86,7 @@
     align-items: center;
     justify-content: center;
     background-color: #D8D8D8;
-    border-bottom: 1cap solid rgb(23, 20, 18);;
+    border-bottom: 1px solid rgb(23, 20, 18);;
 }
 .introduction1 h1, p{
     text-align: center;
@@ -100,9 +100,39 @@
     text-align: center;
     background-color: #D8D8D8;
     border-top:  2px solid rgb(23, 20, 18);
-  
+    border-bottom: 2px solid rgb(23, 20, 18);;
 }
-
+.product1{
+    margin-top: 20px;
+}
+.product1 button{
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: #2E4053;
+    color: #D8D8D8;
+}
+.product2 button{
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: #2E4053;
+    color: #D8D8D8;
+}
+.product3 button{
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: #2E4053;
+    color: #D8D8D8;
+}
+.product4 button{
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: #2E4053;
+    color: #D8D8D8;
+}
 /* ----------------------------------------------------------------------------1.Tablet view ------------------------------------------------------------------------*/
 @media screen and (min-width: 600px) {
  
