@@ -230,8 +230,30 @@ body {
 .call-to-action{
   background-color: rgb(49, 38, 38);
   border-top: 1px solid;
-  margin-top: 60px;
- 
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.p1{
+  margin: 20px;
+  font-size: 20px;
+}
+.p2{
+  text-align: center;
+  color: aquamarine;
+  font-size: 40px;
+}
+.p4 a{
+  text-decoration: none;
+  color: #D8D8D8;
+}
+.p3 img{
+  margin-top: 50px;
+}
+.p3 h4{
+  color: yellow;
+  font-size: 33px;
+  margin: 30px
 }
 
 /* ----------------------------------------------------------------------------1.Tablet view ------------------------------------------------------------------------*/
