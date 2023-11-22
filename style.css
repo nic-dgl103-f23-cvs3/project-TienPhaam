@@ -255,7 +255,30 @@ body {
   font-size: 33px;
   margin: 30px
 }
-
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+footer .social-media{
+  text-align: center;
+}
+footer .social-media li, a{
+  list-style: none;
+  text-decoration: none;
+  color: aquamarine
+ 
+}
+footer .contact-details{
+  text-align: center;
+}
+footer  h3{
+color: orangered;
+font-size: 30px;
+}
+footer .contact-details p{
+  text-align: center;
+  color: #D8D8D8;
+}
 /* ----------------------------------------------------------------------------1.Tablet view ------------------------------------------------------------------------*/
 @media screen and (min-width: 600px) {
  
@@ -290,4 +313,5 @@ body {
   .navbar__button--bars {
     display: none;
   }
+  
 }
