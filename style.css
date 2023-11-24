@@ -144,33 +144,41 @@ body {
 .products{
   color: #D8D8D8;
 }
-.product1 button{
+.products button{
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 5px 20px;
     margin: 20px;
-    background-color: #2E4053;
-    color: #D8D8D8;
+    background-color: #166ecc;
+    color: #050505;
+    text-transform: uppercase;
+    border-radius: 35px;
+    letter-spacing: 0.07em;
+    background-color: #00c6b5;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
 }
-.product2 button{
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin: 20px;
-    background-color: #2E4053;
-    color: #D8D8D8;
+button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: orangered;
+  animation-name: button;
+  animation-duration: 4s; 
 }
-.product3 button{
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin: 20px;
-    background-color: #2E4053;
-    color: #D8D8D8;
-}
-.product4 button{
-    border-radius: 4px;
-    padding: 5px 10px;
-    margin: 20px;
-    background-color: #2E4053;
-    color: #D8D8D8;
+
+ @keyframes button {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+
+
 }
 
 .personal-shopping{
@@ -179,7 +187,7 @@ body {
 .appointment-link a{
     text-decoration: none;
     border-radius: 4px;
-    padding: 5px 10px;
+    padding: 5px 10px; 
     margin: 20px;
     background-color: #2E4053;
     color: #D8D8D8;
@@ -264,6 +272,7 @@ body {
 footer .contact-connect{
   display: flex;
   justify-content: space-around;
+  background-color: #010101;
 }
 footer .social-media{
   text-align: center;
@@ -359,7 +368,6 @@ footer .contact-details p{
 
 
 
-  footer{
-    background-color: black
-  }
+
+  
 }
