@@ -16,120 +16,178 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
   </head>
-</html>
-<body>
-  <header>
-    <nav class="navbar">
-      <input type="checkbox" id="navbar__check" />
-      <div class="navbar__logo">
-        <a href="/index.html"
-          ><img src="projectimages/logo_tagline.png" alt="Logo"
-        /></a>
-      </div>
-      <ul class="navbar__list">
-        <label class="navbar__button--cancel" for="navbar__check"
-          ><i class="fas fa-times"></i
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <input type="checkbox" id="navbar__check" />
+        <div class="navbar__logo">
+          <a href="/index.html"
+            ><img src="projectimages/logo_tagline.png" alt="Logo"
+          /></a>
+        </div>
+        <ul class="navbar__list">
+          <label class="navbar__button--cancel" for="navbar__check"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="">Custom suit</a></li>
+          <li>
+            <a
+              href="file:///C:/Users/phat/Documents/GitHub/project-TienPhaam/personalshoppingpage.html"
+              >Personal Shopping</a
+            >
+          </li>
+        </ul>
+        <label class="navbar__button--bars" for="navbar__check"
+          ><i class="fas fa-bars"></i
         ></label>
-        <li><a href="homepage.html">Home</a></li>
-        <li><a href="">Custom suit</a></li>
-        <li>
-          <a
-            href="file:///C:/Users/phat/Documents/GitHub/project-TienPhaam/personalshoppingpage.html"
-            >Personal Shopping</a
-          >
-        </li>
-      </ul>
-      <label class="navbar__button--bars" for="navbar__check"
-        ><i class="fas fa-bars"></i
-      ></label>
-    </nav>
-    <!-- 
+      </nav>
+      <!-- 
   Reference: 
   Video Tutorial: Responsive Navigation Menu Bar using HTML CSS | Neumorphism UI
   URL: https://www.youtube.com/watch?v=ps575maf37Y 
 -->
-  </header>
-  <main>
-    <sectionc class="book">
-      <h1>BOOK YOUR PERSONAL SHOPPING APPOINTMENT TODAY!</h1>
-      <p>
-        Jim’s proudly offers Personal Shopping Appointments. With a Personal
-        Shopping Appointment you will have the full undivided attention of 1 or
-        2 of our Senior Sales Staff and Tailor, if necessary. If you have
-        shopped with Jim’s in the past, we can use your previous transaction
-        history to pre-select some outfits that will fit and suit your style or
-        occasion. Most appointments are booked during regular business hours
-        which are currently, Monday – Saturday, 9:30-5:30. We would also like to
-        offer Early Shopping Appointments to anyone who would feel more
-        comfortable shopping before the store is open to the public. If you
-        cannot make it in during those times, please reach out and we will do
-        our best to accommodate something that will work.
-      </p>
-      <!--Paragraph from original page--->
-    </sectionc>
+    </header>
+    <main>
+      <sectionc class="book">
+        <h1>BOOK YOUR PERSONAL SHOPPING APPOINTMENT TODAY!</h1>
+        <p>
+          Jim’s proudly offers Personal Shopping Appointments. With a Personal
+          Shopping Appointment you will have the full undivided attention of 1
+          or 2 of our Senior Sales Staff and Tailor, if necessary. If you have
+          shopped with Jim’s in the past, we can use your previous transaction
+          history to pre-select some outfits that will fit and suit your style
+          or occasion. Most appointments are booked during regular business
+          hours which are currently, Monday – Saturday, 9:30-5:30. We would also
+          like to offer Early Shopping Appointments to anyone who would feel
+          more comfortable shopping before the store is open to the public. If
+          you cannot make it in during those times, please reach out and we will
+          do our best to accommodate something that will work.
+        </p>
+        <!--Paragraph from original page--->
+      </sectionc>
 
-    <section class="booking">
-      <!-- Appointment Booking Form -->
-      <div class="appointment-form">
-        <h2>Schedule Your Personal Shopping Appointment</h2>
-      </div>
-      <div class="mainforms">
-        <form action="submit_appointment.php" method="post">
-          <label for="name">Full Name:</label><br />
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Ex: Tien Phat Pham"
-            required
-          /><br />
+      <section class="booking">
+        <!-- Appointment Booking Form -->
+        <div class="appointment-form">
+          <h2>Schedule Your Personal Shopping Appointment</h2>
+        </div>
+        <div class="mainforms">
+          <form action="submit_appointment.php" method="post">
+            <label for="name">Full Name:</label><br />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Ex: Tien Phat Pham"
+              required
+            /><br />
 
-          <label for="email">Email:</label><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Ex: tienphat@gmail.com"
-            required
-          /><br />
+            <label for="email">Email:</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ex: tienphat@gmail.com"
+              required
+            /><br />
 
-          <label for="phone">Phone Number:</label><br />
-          <input
-            type="tel"
-            id="phone"
-            name="phone"
-            placeholder="Ex: 012975635"
-            required
-          /><br />
+            <label for="phone">Phone Number:</label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Ex: 012975635"
+              required
+            /><br />
 
-          <label for="preferred-date">Preferred Date:</label><br />
-          <input
-            type="date"
-            id="preferred-date"
-            name="preferred-date"
-            required
-          /><br />
-          <label for="location">Shop Location</label><br />
-          <select id="location" name="location">
-            <option>COURTENAY</option>
-            <option>CAMPBELL RIVER</option>
-            <option>DUNCAN</option>
-            <option>PORT ALBERNI</option>
-            <option>PRINCE GEORGE</option></select
-          ><br />
-          <label for="preferred-time">Preferred Time:</label><br />
-          <input
-            type="time"
-            id="preferred-time"
-            name="preferred-time"
-            required
-          /><br />
-          <div class="wrapper-button">
-            <input type="reset" value="Reset" />
-            <input type="submit" value="Submit" />
+            <label for="preferred-date">Preferred Date:</label><br />
+            <input
+              type="date"
+              id="preferred-date"
+              name="preferred-date"
+              required
+            /><br />
+            <label for="location">Shop Location</label><br />
+            <select id="location" name="location">
+              <option>COURTENAY</option>
+              <option>CAMPBELL RIVER</option>
+              <option>DUNCAN</option>
+              <option>PORT ALBERNI</option>
+              <option>PRINCE GEORGE</option></select
+            ><br />
+            <label for="preferred-time">Preferred Time:</label><br />
+            <input
+              type="time"
+              id="preferred-time"
+              name="preferred-time"
+              required
+            /><br />
+            <div class="wrapper-button">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="contact-connect">
+        <div class="contact-details">
+          <h3>Contact Us</h3>
+          <a href="mailto:info@jimsclothescloset.ca"
+            >info@jimsclothescloset.ca</a
+          >
+          <p>Phone: (123) 456-7890</p>
+          <a
+            href="https://www.google.com/maps/place/982+Shoppers+Row,+Campbell+River,+BC+V9W+2C5/@50.025514,-125.2457258,17z/data=!3m1!4b1!4m6!3m5!1s0x5462af22b7594d0b:0xd6d54d42885101d!8m2!3d50.025514!4d-125.2431509!16s%2Fg%2F11c1yxm8rj?entry=ttu"
+            >Address: 123 Fashion Street, Cityville, State, ZIP</a
+          >
+        </div>
+
+        <div class="social-media">
+          <h3>Connect With Us</h3>
+          <div class="anchor">
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/jimsclothescloset"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.twitter.com/jimscloset"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/jimscloset"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+            </ul>
+
+            <p>&copy; 2023 Jim's Clothes Closet. All rights reserved.</p>
           </div>
-        </form>
-      </div>
-    </section>
-  </main>
-</body>
+        </div>
+      </section>
+      <section class="last">
+        <p>
+          This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
