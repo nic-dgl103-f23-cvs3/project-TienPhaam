@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jim's Clothes Closet</title>
+    <title>Personal Shopping page</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,7 +32,12 @@
         ></label>
         <li><a href="homepage.html">Home</a></li>
         <li><a href="">Custom suit</a></li>
-        <li><a href="">Personal Shopping</a></li>
+        <li>
+          <a
+            href="file:///C:/Users/phat/Documents/GitHub/project-TienPhaam/personalshoppingpage.html"
+            >Personal Shopping</a
+          >
+        </li>
       </ul>
       <label class="navbar__button--bars" for="navbar__check"
         ><i class="fas fa-bars"></i
@@ -44,4 +49,87 @@
   URL: https://www.youtube.com/watch?v=ps575maf37Y 
 -->
   </header>
+  <main>
+    <sectionc class="book">
+      <h1>BOOK YOUR PERSONAL SHOPPING APPOINTMENT TODAY!</h1>
+      <p>
+        Jim’s proudly offers Personal Shopping Appointments. With a Personal
+        Shopping Appointment you will have the full undivided attention of 1 or
+        2 of our Senior Sales Staff and Tailor, if necessary. If you have
+        shopped with Jim’s in the past, we can use your previous transaction
+        history to pre-select some outfits that will fit and suit your style or
+        occasion. Most appointments are booked during regular business hours
+        which are currently, Monday – Saturday, 9:30-5:30. We would also like to
+        offer Early Shopping Appointments to anyone who would feel more
+        comfortable shopping before the store is open to the public. If you
+        cannot make it in during those times, please reach out and we will do
+        our best to accommodate something that will work.
+      </p>
+      <!--Paragraph from original page--->
+    </sectionc>
+
+    <section class="booking">
+      <!-- Appointment Booking Form -->
+      <div class="appointment-form">
+        <h2>Schedule Your Personal Shopping Appointment</h2>
+      </div>
+      <div class="mainforms">
+        <form action="submit_appointment.php" method="post">
+          <label for="name">Full Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Ex: Tien Phat Pham"
+            required
+          /><br />
+
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ex: tienphat@gmail.com"
+            required
+          /><br />
+
+          <label for="phone">Phone Number:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Ex: 012975635"
+            required
+          /><br />
+
+          <label for="preferred-date">Preferred Date:</label><br />
+          <input
+            type="date"
+            id="preferred-date"
+            name="preferred-date"
+            required
+          /><br />
+          <label for="location">Shop Location</label><br />
+          <select id="location" name="location">
+            <option>COURTENAY</option>
+            <option>CAMPBELL RIVER</option>
+            <option>DUNCAN</option>
+            <option>PORT ALBERNI</option>
+            <option>PRINCE GEORGE</option></select
+          ><br />
+          <label for="preferred-time">Preferred Time:</label><br />
+          <input
+            type="time"
+            id="preferred-time"
+            name="preferred-time"
+            required
+          /><br />
+          <div class="wrapper-button">
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
 </body>

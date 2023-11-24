@@ -301,6 +301,83 @@ footer .contact-details p{
   border-top:  0.5px solid;
   padding-top: 10px;
 }
+.book h1{
+  text-align: center;
+  margin-top: 50px;
+  color: #00c6b5;
+  font-family: 'Times New Roman', Times, serif;
+}
+.book p{
+  text-align: center;
+  margin-top: 30px;
+}
+.book{
+ 
+  border-top: 2px red solid ;
+}
+.booking h2{
+  margin-top: 50px;
+  color: orangered;
+}
+.appointment-form h2{
+  text-align: center;
+}
+.appointment-form form{
+  margin-top: 20px;
+
+}
+.appointment-form label{
+  color: #D8D8D8;
+}
+input , select {
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  width: 500px;
+  padding: 12px;
+}
+.mainforms{
+  text-align: center;
+  color: #00c6b5;
+}
+.lastinput {
+  text-align: right;
+}
+.lastinput input [type="sunbmit"]{
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.wrapper-button{
+  display: flex;
+  justify-content: space-evenly;
+}
+input[type="reset"] {
+  color: #0e7a0d;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+input[type="submit"] {
+  background-color: #0e7a0d;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ab66;
+}
+/*---learn from lecture week
+
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
 @media screen and (min-width: 1200px) {
   p {
@@ -351,7 +428,9 @@ footer .contact-details p{
   .introduction1 h1 p{
     text-align: left;
   }
-
+  input , select {
+    
+  }
 
 
   .products{
