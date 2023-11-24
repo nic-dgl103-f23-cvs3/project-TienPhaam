@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(49, 38, 38);
-    border-bottom: 1px solid rgb(23, 20, 18);;
+    border-bottom: 1px solid rgb(23, 20, 18);
 }
 .introduction1 h1, p{
     text-align: center;
@@ -100,14 +100,15 @@ body {
 }
 .introduction1{
   margin-bottom: 20px;
-  margin-top: 30px;
+ 
 }
 
 .form-inputs{
-  text-align: left;
+  text-align: right;
     background-color: #050505;
     color: #f5f5f5;
     padding: 20px;
+    gap: 50px;
 }
 .form-inputs label{
   font-size: 20px;
@@ -127,8 +128,6 @@ body {
 .products{
     text-align: center;
     background-color: rgb(49, 38, 38);
-    border-top:  2px solid rgb(23, 20, 18);
-    border-bottom: 2px solid rgb(23, 20, 18);
 }
 
 .product1{
@@ -167,6 +166,7 @@ body {
     background-color: #2E4053;
     color: #D8D8D8;
 }
+
 .personal-shopping{
     margin-top: 30px;
 }
@@ -313,5 +313,44 @@ footer .contact-details p{
   .navbar__button--bars {
     display: none;
   }
-  
+  .introduction1{
+    margin-right: 70px;
+  }
+  .introduction1 p {
+    text-align: left;
+  }
+  .pic img{
+    margin-left: 90px;
+  }
+  .introduction1 h1{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .introductions{
+    margin: 50px;
+    display: flex;
+  }
+  .introduction1 h1 p{
+    text-align: left;
+  }
+
+
+
+  .products{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: auto;
+    gap: 50px;
+    width: 50%;
+   margin-top: 2rem;
+  }
+
+
+
+
+
+  footer{
+    background-color: black
+  }
 }
