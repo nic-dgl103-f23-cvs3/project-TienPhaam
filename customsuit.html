@@ -49,6 +49,61 @@
         ></label>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section id="custom-suit">
+        <!-- Customization Options -->
+        <div class="customization-options">
+          <h2>Customize Your Perfect Suit</h2>
+          <p>
+            Choose from a variety of suit designs and input your measurements to
+            create a personalized and stylish look.
+          </p>
+
+          <!-- Selection Screen for Suit Design -->
+          <div class="suit-design-selection">
+            <!-- Display suit design options here -->
+            <img src="projectimages/shopping.webp" alt="Suit Design 1" />
+            <img src="projectimages/shopping 2" alt="Suit Design 2" />
+            <!-- Add more suit design images as needed -->
+          </div>
+        </div>
+
+        <!-- Form for User Input -->
+        <div class="user-input-form">
+          <h3>Provide Your Preferences and Measurements</h3>
+          <form action="submit_custom_suit.php" method="post">
+            <label for="suit-design">Select Suit Design:</label>
+            <select id="suit-design" name="suit-design" required>
+              <option value="design1">Suit Design 1</option>
+              <option value="design2">Suit Design 2</option>
+              <!-- Add more suit design options as needed -->
+            </select>
+
+            <!-- Add more form fields for user input, such as measurements -->
+
+            <input type="submit" value="Submit Customization" />
+          </form>
+        </div>
+
+        <!-- Call-to-Action (same as on homepage) -->
+        <section id="call-to-action">
+          <h2>Ready to Elevate Your Style?</h2>
+          <p>
+            Explore our latest collection and discover the perfect pieces to
+            enhance your wardrobe. Whether you're looking for a stylish suit,
+            casual attire, or personalized fashion advice, we've got you
+            covered.
+          </p>
+          <div class="action-buttons">
+            <a href="products.html" class="explore-button">Explore More</a>
+            <a href="contact.html" class="contact-button">Contact Us</a>
+          </div>
+          <img
+            src="images/call-to-action-image.jpg"
+            alt="Call-to-Action Image"
+          />
+        </section>
+      </section>
+    </main>
   </body>
 </html>
