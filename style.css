@@ -389,6 +389,7 @@ input[type="submit"]:hover {
   flex-direction: column;
   justify-content: space-evenly;
 }
+
 /*---learn from lecture week
 
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
@@ -456,7 +457,11 @@ input[type="submit"]:hover {
    margin-top: 2rem;
   }
 
-
+  .suit-design-selection{
+    display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 1 1;
+  }
 
 
 
