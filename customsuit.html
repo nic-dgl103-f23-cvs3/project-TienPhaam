@@ -106,6 +106,21 @@
         <div class="user-input-form">
           <h3>Provide Your Preferences and Measurements</h3>
           <form action="submit_custom_suit.php" method="post">
+            <label for="Height">Height:</label><br />
+            <input
+              type="text"
+              id="Height"
+              name="Height"
+              placeholder="Ex: 5'5 F"
+              required
+            /><br />
+            <label for="weight">Weight</label><br />
+            <input
+              type="text"
+              id="weight"
+              name="weight"
+              placeholder="EX: 137 pounds"
+            /><br />
             <label for="suit-design">Select Suit Design:</label>
             <select id="suit-design" name="suit-design" required>
               <option value="design1">Suit Design 1</option>
