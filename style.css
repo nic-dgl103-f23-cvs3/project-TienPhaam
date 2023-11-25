@@ -376,6 +376,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #00ab66;
 }
+.map{
+  text-align: center;
+}
 /*---learn from lecture week
 
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
