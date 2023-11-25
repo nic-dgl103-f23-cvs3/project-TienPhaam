@@ -389,7 +389,17 @@ input[type="submit"]:hover {
   flex-direction: column;
   justify-content: space-evenly;
 }
-
+.custom-suit{
+  margin-top: 50px;
+}
+.suit-design-selection{
+  margin-top: 50px;
+}
+.suit-design-selection h3{
+  margin-top: 30px;
+  color: orangered;
+  font-size: 20px;
+}
 /*---learn from lecture week
 
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
