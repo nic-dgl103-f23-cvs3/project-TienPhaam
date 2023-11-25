@@ -379,6 +379,16 @@ input[type="submit"]:hover {
 .map{
   text-align: center;
 }
+.customization-options h2{
+  text-align: center;
+  color: #00c6b5;
+  font-size: 40px;
+}
+.customization-options{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 /*---learn from lecture week
 
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
