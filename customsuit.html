@@ -32,16 +32,10 @@
           ></label>
           <li><a href="homepage.html">Home</a></li>
           <li>
-            <a
-              href="file:///C:/Users/phat/Documents/GitHub/project-TienPhaam/customsuit.html"
-              >Custom suit</a
-            >
+            <a href="customsuit.html">Custom suit</a>
           </li>
           <li>
-            <a
-              href="file:///C:/Users/phat/Documents/GitHub/project-TienPhaam/personalshoppingpage.html"
-              >Personal Shopping</a
-            >
+            <a href="personalshoppingpage.html">Personal Shopping</a>
           </li>
         </ul>
         <label class="navbar__button--bars" for="navbar__check"
@@ -65,36 +59,32 @@
             <div class="design1">
               <h3>Design 1</h3>
               <img
+                class="suit-image"
                 src="projectimages/vest44.jpg"
-                width="600"
-                height="700"
                 alt="Suit Design 1"
               />
             </div>
             <div class="design2">
               <h3>Design 2</h3>
               <img
+                class="suit-image"
                 src="projectimages/vext11.jpg"
-                width="600"
-                height="700"
                 alt="Suit Design 2"
               />
             </div>
             <div class="design3">
               <h3>Design 3</h3>
               <img
+                class="suit-image"
                 src="projectimages/nice.jpg"
-                width="600"
-                height="700"
                 alt="Suit Design 3"
               />
             </div>
             <div class="design4">
               <h3>Design 4</h3>
               <img
+                class="suit-image"
                 src="projectimages/vest33.jpg"
-                width="600"
-                height="700"
                 alt="Suit Design 4"
               />
             </div>
@@ -104,35 +94,26 @@
 
         <!-- Form for User Input -->
         <div class="user-input-form">
-          <h3>Provide Your Preferences and Measurements</h3>
-          <form action="submit_custom_suit.php" method="post">
-            <label for="Height">Height:</label><br />
-            <input
-              type="text"
-              id="Height"
-              name="Height"
-              placeholder="Ex: 5'5 F"
-              required
-            /><br />
-            <label for="weight">Weight</label><br />
-            <input
-              type="text"
-              id="weight"
-              name="weight"
-              placeholder="EX: 137 pounds"
-            /><br />
-            <label for="suit-design">Select Suit Design:</label><br />
-            <select id="location" name="location">
-              <option>Design 1</option>
-              <option>Design 2</option>
-              <option>Design 3</option>
-              <option>Design 4</option></select
-            ><br />
+          <div class="form-container">
+            <h3>Provide Your Preferences and Measurements</h3>
+            <form action="submit_custom_suit.php" method="post">
+              <label for="Height">Height:</label><br />
+              <input type="text" placeholder="Ex: 5'5 F" required /><br />
+              <label for="weight">Weight</label><br />
+              <input type="text" placeholder="EX: 137 pounds" /><br />
+              <label for="suit-design">Select Suit Design:</label><br />
+              <select id="location" name="location">
+                <option>Design 1</option>
+                <option>Design 2</option>
+                <option>Design 3</option>
+                <option>Design 4</option></select
+              ><br />
 
-            <!-- Add more form fields for user input, such as measurements -->
+              <!-- Add more form fields for user input, such as measurements -->
 
-            <input type="submit" value="Submit Customization" />
-          </form>
+              <input type="submit" value="Submit Customization" />
+            </form>
+          </div>
         </div>
 
         <!-- Call-to-Action (same as on homepage) -->
@@ -149,6 +130,7 @@
             <a href="homepage.html" class="contact-button">CONTACT Us</a>
           </div>
           <img
+            class="suit-image"
             src="projectimages/Jims-50yrs-Final-768x721.jpg"
             alt="Call-to-Action Image"
           />
