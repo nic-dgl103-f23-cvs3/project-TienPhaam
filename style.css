@@ -433,8 +433,42 @@ padding-top: 40px}
   width: 80%;
 }
 .map{
-  width: ;
+  width: 20%;
 }
+.size-guide {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.size-guide h2 {
+  color: yellowgreen;
+}
+
+.size-guide p {
+  color: rgb(197, 187, 187)414;
+}
+
+/* Style the Size Guide Table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #010101;
+  background-color: #d1efe3;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #2e311f;
+}
+
+
 
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
 @media screen and (min-width: 1200px) {
