@@ -420,12 +420,22 @@ padding-top: 40px}
 .user-input-form{
   color: #00c6b5;
 }
-
+  
 
 
 .suit-image {
   width: 80%;
 }
+.custom-suit-image{
+  height: 611.683px;
+}
+.anh img{
+  width: 80%;
+}
+.map{
+  width: ;
+}
+
 /* ----------------------------------------------------------------------------2.Desktop view ----------------------------------------------------------------------*/
 @media screen and (min-width: 1200px) {
   p {
@@ -498,7 +508,16 @@ form{
   text-align: center;
 }
 
+.custom-suit-image {
+  width: 40%;
+}
 
+.suit-image{
+  height: 600px  ;
+}
 
+.anh img{
+  width: 40%;
+}
   
 }
