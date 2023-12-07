@@ -134,7 +134,7 @@ body {
 .search-bar button{
   border-radius: 5px;
   padding: 3px 10px;
-  background-color: red;
+  background-color: brown;
   color: #f5f5f5;
 }
 .products {
@@ -143,24 +143,17 @@ body {
 .products p{
   text-align: center;
 }
-
-.product1{
-    margin-top: 20px;
-}
-
-
 .products{
   color: #D8D8D8;
 }
 .products button{
     padding: 5px 20px;
     margin: 20px;
-    background-color: #166ecc;
-    color: #050505;
+    color: #fcf4f4;
     text-transform: uppercase;
     border-radius: 5px;
     letter-spacing: 0.07em;
-    background-color: #00c6b5;
+    background-color: rgb(74, 40, 21);
     cursor: pointer;
     transition: all 1s ease-in-out;
 }
@@ -168,12 +161,12 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
   color: orangered;
   animation-name: button;
-  animation-duration: 2s; 
+  animation-duration: 0.25s; 
 }
 
  @keyframes button {
   0% {
-    background-color: red;
+    background-color: rgb(235, 224, 224);
   }
   
 
@@ -188,7 +181,7 @@ body {
     border-radius: 4px;
     padding: 5px 10px; 
     margin: 20px;
-    background-color: #2E4053;
+    background-color: rgb(74, 40, 21);
     color: #D8D8D8;
     
 
@@ -531,7 +524,7 @@ th {
     margin: auto;
     gap: 50px;
     width: 50%;
-   margin-top: 2rem;
+   margin-top: 120px;
   }
 
   .suit-design-selection{
