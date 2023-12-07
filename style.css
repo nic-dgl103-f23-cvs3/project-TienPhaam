@@ -181,9 +181,8 @@ body {
     border-radius: 4px;
     padding: 5px 10px; 
     margin: 20px;
-    background-color: rgb(74, 40, 21);
     color: #D8D8D8;
-    
+    background-color: rgb(74, 40, 21);
 
 }
 .best-reasons{
@@ -191,14 +190,14 @@ body {
 }
 .personal-shopping{
   text-align: center;
-  background-color:  rgb(49, 38, 38);
-  
+  background-color: rgb(94 89 89);
+
   color: #D8D8D8;
 }
 .custom-suit{
   
   text-align: center;
-  background-color: rgb(49, 38, 38);
+ 
 }
 .custom-suit a{
   text-decoration: none;
@@ -212,7 +211,7 @@ body {
   border-radius: 5px;
   padding: 10px 20px 10px;
   display: inline-block;
-  background-color: #2E4053;
+  background-color: rgb(74, 40, 21); 
 }
 .shopnowlink a{
   border: 0.5px solid;
@@ -220,7 +219,7 @@ body {
   color: #D8D8D8;
   border-radius: 4px;
   padding: 5px 10px;
-  background-color: #2E4053;
+  background-color: rgb(74, 40, 21);
 }
 
 .call-to-action {
@@ -234,7 +233,7 @@ body {
 }
 
 .call-to-action{
-  background-color: rgb(49, 38, 38);
+  
   border-top: 1px solid;
   padding-bottom: 40px;
   text-align: center;
