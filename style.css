@@ -568,12 +568,9 @@ form{
 .p1{
   margin-top: 90px;
 }
-.custom-suit-image {
-  width: 40%;
-}
 
-.suit-image{
-  height: 600px;
+.schedule-form input, select{
+  width: 50%;
 }
 
 .anh img{
