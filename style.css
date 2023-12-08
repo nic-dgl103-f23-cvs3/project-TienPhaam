@@ -103,8 +103,7 @@ body {
 .introduction1 h1, p{
     text-align: left;
     color: #FAFAFA;
-    margin-top: 50px;
-    margin-bottom: 60px;
+   
 }
 .introduction h1{
   font-size: 40px;
@@ -138,6 +137,7 @@ body {
   color: #f5f5f5;
 }
 .products {
+  margin-top: 50px;
     text-align: center;
 }
 .products p{
@@ -187,6 +187,7 @@ body {
 }
 .best-reasons{
   margin-top: 20px;
+  
 }
 .personal-shopping{
   text-align: center;
@@ -221,7 +222,12 @@ body {
   padding: 5px 10px;
   background-color: rgb(74, 40, 21);
 }
-
+.best-reasons{
+  margin-top: 60px;
+}
+.best-reasons img{
+  margin-top: 30px;
+}
 .call-to-action {
   margin-top: 10px;
 }
@@ -231,8 +237,12 @@ body {
   margin: 20px;
 
 }
+.call-to-action p{
+  text-align: center;
+  color: #D8D8D8 
+}
 
-.call-to-action{
+.call-to-action {
   
   border-top: 1px solid;
   padding-bottom: 40px;
@@ -240,13 +250,16 @@ body {
   border-bottom: 1px solid;
 }
 .p1{
-  margin: 20px;
+  margin-top: 20px;
   font-size: 20px;
 }
+
+
 .p2{
   text-align: center;
   color: aquamarine;
   font-size: 40px;
+ 
 }
 .p4 a{
   text-decoration: none;
@@ -260,10 +273,13 @@ body {
   font-size: 33px;
   margin: 30px
 }
+footer{
+  background-color: rgb(74, 40, 21); ;
+}
 footer .contact-connect{
   display: flex;
   justify-content: space-around;
-  background-color: #010101;
+
 }
 footer .social-media{
   text-align: center;
@@ -285,12 +301,16 @@ footer .contact-details p{
   text-align: center;
   color: #D8D8D8;
 }
+.contact-details p a{
+  margin-top: 0px;
+}
 .last{
-  margin-top: 50px;
+  
   font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   border-top:  0.5px solid;
   padding-top: 10px;
+  background-color: rgb(74, 40, 21); 
 }
 .book h1{
   text-align: center;
@@ -325,7 +345,7 @@ input , select {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  width: 50%;
+  width: 80%;
   padding: 12px;
 }
 .mainforms{
@@ -369,6 +389,7 @@ input[type="submit"]:hover {
 }
 .map{
   text-align: center;
+ 
 }
 .customization-options h2{
   text-align: center;
@@ -376,9 +397,13 @@ input[type="submit"]:hover {
   font-size: 40px;
 }
 .customization-options{
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.customization-options p{
+text-align: center;
 }
 .custom-suit{
   margin-top: 50px;
@@ -388,14 +413,16 @@ input[type="submit"]:hover {
 }
 .suit-design-selection h3{
   margin-top: 30px;
-  color: orangered;
-  font-size: 20px;
+  color: rgb(229, 209, 201);
+  font-size: 40px;
+  margin-bottom: 30px;
 }
 .user-input-form h3{
   margin-top: 34px;
   font-size: 28px;
   color: #00c6b5;
   margin-bottom: 20px;
+  
 }
 .call-to-action{ margin-top: 40px;
 padding-top: 40px}
@@ -411,19 +438,6 @@ padding-top: 40px}
   color: #00c6b5;
 }
   
-
-
-.suit-image {
-  width: 80%;
-}
-.custom-suit-image{
-  height: 611.683px;
-}
-.anh img{
-  width: 80%;
-  
-}
-
 
 .size-guide {
   margin-top: 20px;
@@ -459,7 +473,7 @@ th {
   color: #2e311f;
 }
 .custom-suit-image{
-  width: auto;
+  width: 90%;
 }
 
 
@@ -514,8 +528,18 @@ th {
     text-align: left;
   }
 
-
-
+.best-reasons{
+  display: flex;
+  justify-content: space-around;
+}
+.reason{
+  margin-top: 150px;
+  font-size: 26px;
+}
+.reason h4{
+  font-size: 50px;
+  margin-bottom: 40px;
+}
   .products{
     display: grid;
     grid-template-columns: auto auto;
@@ -534,20 +558,29 @@ th {
 form{
   text-align: center;
 }
-
+.fa-image{
+  display: flex;
+  justify-content: space-evenly;
+}
+.p1 p{
+  font-size: 30px;
+}
+.p1{
+  margin-top: 90px;
+}
 .custom-suit-image {
   width: 40%;
 }
 
 .suit-image{
-  height: 600px  ;
+  height: 600px;
 }
 
 .anh img{
   width: 40%;
 }
 table{
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
  .ban{
@@ -557,6 +590,6 @@ table{
   text-align: center;
  }
  .search-bar input{
-  width: 400px;
+  width: 600px;
  }
 }
